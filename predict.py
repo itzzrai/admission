@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Unpickle model 
-model = pd.read_pickle('lr_model.pickle') 
+model = pd.read_pickle('amitava.pickle') 
 
 # Take input from user
 gre = int(input("Enter GRE    : "))
